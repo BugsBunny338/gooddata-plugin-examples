@@ -8,6 +8,7 @@ You can find a number of Dashboard Plugin examples in this repository. Each fold
 * [Insight groups](./insight_groups_plugin) - can group more insights.
 * [Single select attribute filter](./single_select_plugin) - render specified attribute filters as a single select attribute filters.
 * [Radial bar chart](./radial_bar_chart_plugin) - replace all column charts with radial bar charts.
+* [Circle packing bubble chart](./circle_packing_bubble_chart_plugin) - replace all bubble charts with circle packing bubble charts.
 
 # FAQ
 
