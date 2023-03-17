@@ -10,7 +10,12 @@ const Plugins: IEmbeddedPlugin[] = [
     {
         factory: PluginFactory,
         // NOTE: Add custom configuration here to test insight grouping
-        parameters: JSON.stringify({}),
+        parameters: JSON.stringify({
+            group: [
+                '3e16ebe3-7753-40c6-abc1-f549e7bf4d6c',
+                'a178265c-53ba-4c15-8c1f-d7e168506c92'
+            ]
+        }),
     },
 ];
 const Config: DashboardConfig = {
